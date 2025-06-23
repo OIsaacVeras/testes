@@ -1,1 +1,2 @@
 Esta é uma nova funcionalidade em desenvolvimento.
+Uma lateração na feature.
