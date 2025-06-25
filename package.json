@@ -1,0 +1,24 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "Meu nome é isaac e eu estou aprendendo git.\r O que quero ser? dev fullstack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OIsaacVeras/testes.git"
+  },
+  "keywords": [],
+  "author": "Isaac Veras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OIsaacVeras/testes/issues"
+  },
+  "homepage": "https://github.com/OIsaacVeras/testes#readme",
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0"
+  }
+}

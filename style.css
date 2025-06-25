@@ -1,0 +1,42 @@
+/* Base */
+html {
+  font-size: 100%; /* 16px */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.box {
+  width: 80%;
+  margin: 20px auto;
+  padding: 40px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+/* Estilo padrão (desktop) */
+.box-px {
+  background-color: darkblue;
+}
+
+.box-em {
+  background-color: darkgreen;
+}
+
+/* Media query com PX – até 768px */
+@media (max-width: 768px) {
+  .box-px {
+    background-color: red;
+  }
+}
+
+/* Media query com EM – até 48em (equivale a 768px com font-size padrão) */
+@media (max-width: 48em) {
+  .box-em {
+    background-color: orange;
+  }
+}
